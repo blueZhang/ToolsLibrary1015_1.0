@@ -20,6 +20,11 @@ public final class HttpTools {
 
     private HttpTools() {}
 
+    /**
+     * 获取字节数组通过GET方法
+     * @param url
+     * @return
+     */
     public static byte[] doGet(String url) {
         byte[] ret = null;
 
